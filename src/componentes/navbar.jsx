@@ -16,7 +16,7 @@ export default function Navbar() {
             <div class="enlaces">
                 <ul class="nav-links">
                     <li><Link to="/capacitacion">Capacitación</Link></li>
-                    <li><Link to="/telefonos-utiles">Telefonos útiles</Link></li>
+                    <li><Link to="/telefonos-utiles">Contacto</Link></li>
                 </ul>
             </div>
         </nav>
