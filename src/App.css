@@ -1,0 +1,139 @@
+/* 
+  Plantilla para homogenizar el formato
+*/
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+
+body{
+  font-family:'Vidaloka', serif;
+  font-size:14px;
+  color: #666666;
+}
+
+.left, .left-side, .pull-left{float:left;}
+.right, .right-side, .pull-right{float:right;}
+.clear{clear:both;}
+.clearfix:after{clear:both; content:""; display:block;}
+a img{border:0px;}
+a{text-decoration:none; color:#0D6BB2;}
+a:hover{color:#b9baba;}
+
+.align-left{text-align:left;}
+.align-center{text-align:center;}
+.align-right{text-align:right;}
+.vertical-align{vertical-align:top;}
+.relative{position:relative;}
+.absolute{position:absolute;}
+
+li{list-style-type:none;}
+.underline{text-decoration:underline;}
+img{max-width:100%;}
+/******************************************************/
+
+a{
+  text-decoration:none;
+}
+.navbar{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.nav-links{
+  display:flex;
+}
+li{
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+  color: black;
+}
+a:visited{
+  color:grey;
+}
+img{
+  max-width: 100wh;
+  max-height: 50vh;
+}
+.novedades,
+.total{
+  display: flex;
+}
+article,
+aside{
+  display:flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.total{
+  width:100%;
+
+}
+.novedades{
+  width: 75%;
+}
+.izq,
+.centro{
+width: 50%;
+}
+aside{
+  max-width: 25%;
+}
+h2{
+  text-align: left;
+}
+p{
+  text-align: center;
+}
+.container-fecha{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.container-fecha-fecha{
+    display:block;
+    color: black;
+    flex-shrink: 0;/*hace que el texto quede en un solo renglon*/
+    font-size: 16px;
+    font-style: italic;
+    max-height: 20px;
+    padding: 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.cointainer-fecha-linea{
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+.titulo-noticia{
+  text-align:center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.informacion-novedad{
+  font-size:18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.fecha{
+  text-align:right;
+  font-size: 25px;
+}
+.novedades-aside{
+  font-size:18px;
+  text-align: justify;
+}
+.foot{
+  text-align:center;
+  font-size: 13px;
+}
+
+
