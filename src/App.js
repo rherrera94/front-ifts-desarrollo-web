@@ -15,10 +15,10 @@ function App() {
     <div className="App">
       <Router>
         <Navbar></Navbar>
-        <div class="container-fecha">
-            <div class="cointainer-fecha-linea"></div>
-            <div class="container-fecha-fecha">{fech}</div>
-            <div class="cointainer-fecha-linea"></div>
+        <div className="container-fecha">
+            <div className="cointainer-fecha-linea"></div>
+            <div className="container-fecha-fecha">{fech}</div>
+            <div className="cointainer-fecha-linea"></div>
         </div>
         <Route exact path="/" component={Noticias}/>
         <Route exact path="/capacitacion" component={Capacitacion}/>
