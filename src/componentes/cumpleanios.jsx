@@ -9,8 +9,8 @@ export default function Cumpleanios() {
         
     }else{
         return (
-            <div>
-                <table>
+            <div className="cumple-tabla">
+                <table className="tabla-cumpleanios">
                         <tr> 
                             <th>Día</th> 
                             <th>Empleado</th> 
