@@ -44,7 +44,7 @@ a{
   justify-content:space-around;
   align-items: center;
 }
-.nav-links{
+.barra-links{
   display:flex;
 }
 li{
@@ -135,6 +135,7 @@ p{
   font-size:18px;
   text-align: justify;
 }
+
 .foot{
   text-align:center;
   font-size: 13px;

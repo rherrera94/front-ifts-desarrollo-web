@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './componentes/navbar';
 import Noticias from "./componentes/noticias";
 import Foot from "./componentes/piepagina";
-import Nosotros from "./componentes/nosotros";
+import Cumpleanios from "./componentes/cumpleanios";
 import Capacitacion from "./componentes/capacitacion";
 import Contacto from "./componentes/contacto";
 function App() {
@@ -22,7 +22,7 @@ function App() {
         </div>
         <Route exact path="/" component={Noticias}/>
         <Route exact path="/capacitacion" component={Capacitacion}/>
-        <Route exact path="/institucional" component={Nosotros}/>
+        <Route exact path="/cumpleanios" component={Cumpleanios}/>
         <Route exact path="/telefonos-utiles" component={Contacto}/>
       </Router>
       <Foot></Foot>
