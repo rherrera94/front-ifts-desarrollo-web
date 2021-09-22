@@ -156,5 +156,78 @@ th{
   text-align:center;
   font-size: 13px;
 }
+/*******************************/
+.container-login{
+  max-width: 100%;
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 
+}
+.box {
+  margin-top: 5px;
+  max-width: 100%;
+  margin:3px;
+}
 
+.align-items-center {
+  align-items: center!important;
+}
+.justify-content-center {
+  justify-content: center!important;
+}
+
+.text-white {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 500;
+  color: black!important;
+}
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+.btn-info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-group{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: 100%;
+}
+.boton-login{
+align-items: center;
+  margin-top: 5px;
+  max-width: 100%;
+}

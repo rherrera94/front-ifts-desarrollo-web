@@ -10,6 +10,7 @@ export default function Cumpleanios() {
     }else{
         return (
             <div className="cumple-tabla">
+                <h2> Festejemos junto a nuestros compañeros este día tan especial</h2><br/>
                 <table className="tabla-cumpleanios">
                         <tr> 
                             <th>Día</th> 
