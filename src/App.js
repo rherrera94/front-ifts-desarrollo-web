@@ -1,5 +1,6 @@
 
 import {BrowserRouter as Router, Route} from "react-router-dom";
+import "normalize.css";
 import './App.css';
 import Navbar from './componentes/navbar';
 import Noticias from "./componentes/noticias";
