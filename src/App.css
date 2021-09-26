@@ -1,43 +1,9 @@
-/* 
-  Plantilla para homogenizar el formato
-*/
 
-*{
-  margin:0px;
-  padding:0px;
-  box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-}
-
-body{
-  font-family:'Vidaloka', serif;
-  font-size:14px;
-  color: #666666;
-}
-
-.left, .left-side, .pull-left{float:left;}
-.right, .right-side, .pull-right{float:right;}
-.clear{clear:both;}
-.clearfix:after{clear:both; content:""; display:block;}
-a img{border:0px;}
-a{text-decoration:none; color:#0D6BB2;}
-a:hover{color:#b9baba;}
-
-.align-left{text-align:left;}
-.align-center{text-align:center;}
-.align-right{text-align:right;}
-.vertical-align{vertical-align:top;}
-.relative{position:relative;}
-.absolute{position:absolute;}
-
-li{list-style-type:none;}
-.underline{text-decoration:underline;}
-img{max-width:100%;}
-/******************************************************/
-
+/***************************************************************/
+/* Apartir de aca nuestros formatos*/
 a{
   text-decoration:none;
+  color:#0D6BB2;
 }
 .navbar{
   display:flex;
@@ -49,6 +15,7 @@ a{
 }
 li{
   padding: 10px;
+  list-style-type:none;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -61,6 +28,9 @@ a:visited{
 img{
   max-width: 100wh;
   max-height: 50vh;
+}
+.logo-dalw{
+  max-width: 100%;
 }
 .novedades,
 .total{
@@ -201,23 +171,22 @@ label {
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
-  padding: .375rem .75rem;
+  padding: 6px 12px;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: .25rem;
+  border-radius: 4px;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .form-control {
   display: block;
   width: 100%;
-  padding: .375rem .75rem;
+  padding: 6px 12px;
   font-size: 1rem;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
-  background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: .25rem;
+  border-radius: 5px;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .form-group{

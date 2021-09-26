@@ -11,7 +11,7 @@ export default function Navbar() {
                 </ul>
             </div>
             <div  className="logo-sector">
-                <img src={logo} alt="logo de DALW"/>
+                <img className="logo-dalw" src={logo} alt="logo de DALW"/>
             </div>
             <div className="enlaces">
                 <ul className="barra-links">

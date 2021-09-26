@@ -1,5 +1,5 @@
 
-export default function Contacto() {
+export default function Login() {
 
     return (
         <div class="container-login">
