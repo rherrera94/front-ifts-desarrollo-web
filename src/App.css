@@ -199,3 +199,64 @@ align-items: center;
   margin-top: 5px;
   max-width: 100%;
 }
+.cuerpo-contactos{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.contacto-utiles{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    outline: 0;
+}
+.cuerpo-tabla{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center!important;
+}
+.telefonos{
+  border-top: solid 2px #2FAAE1;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+h5{
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color:#767676;
+  margin-top: 5px;
+}
+.numero{
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color:#333;
+}
+.cuerpo-tabla-dos{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.header-contacto{
+  text-align: center;
+  font-weight: 600;
+}
+.telefonos-dos{
+  border-top: solid 2px #2FAAE1;
+  margin-top: 15px;
+}
+.comedor{
+  text-align: center;
+  margin-left:20%;
+}
